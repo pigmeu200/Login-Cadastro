@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xyear | Login/Cadastro</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <nav>
+      
+      <h1 class="logo"><span>X</span>year</h1>
+      <hr class="hr">
+      <p>Login</p>
+    </nav>
+
+    <section>
+      
+      <div class="main-login">
+        <div class="left-login">
+          <h1>Faça Seu Login Agora Mesmo<br /></h1>
+
+            <img src="./files/server-animate.svg" class="left-login-image" alt="">
+
+        </div>
+        <div class="right-login">
+          <div class="card-login">
+            <h1>LOGIN</h1>
+            <div class="textfield">
+              <label for="usuario">Usuário</label>
+              <input type="text" name="usuario" placeholder="Usuário" />
+            </div>
+            <br>
+            <div class="textfield">
+                <label class="senha" for="senha">Senha </label>
+                <div class="password">
+              <input type="password" id="senha" placeholder="Senha"/><i class="bi bi-eye-fill" id="olho" onclick="mostrarSenha()"></i> </div>
+              
+            <div class="links">
+              <a class="login" href="">Login</a>
+              <a class="cadastro" href="./../cadastro/index.html">Cadastro</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

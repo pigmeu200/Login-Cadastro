@@ -1,0 +1,273 @@
+@import url(./assets/global/global.css);
+
+body {
+    background-color: #1c0d3ff5;
+}
+
+section {
+    color: black;
+    margin-top: 150px;
+    
+}
+
+.main-login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login > h1 {
+        margin-left: 40%;
+        font-size: 2vw;
+        color: #00ff88;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.left-login-image {
+    width: 75%;
+    margin-left: 23%;
+}
+
+    .right-login {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-login {
+        margin-top: 17%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 70px 35px;
+        background: #2f2841;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px #00000056;
+    }
+
+    .card-login > h1 {
+        padding-bottom: 14%;
+        color: #00ff88;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        margin: 0;
+    }
+
+    .textfield {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+    .textfield > input{
+        border: none;
+        border-radius: 10px;
+        padding: 15px;
+        background: #514869;
+        color: #f0ffffde;
+        font-size: 12pt;
+        box-shadow: 0px 10px 40px #00000056;
+        margin-left: -20px;
+        margin-bottom: 10px;
+    }
+
+    .textfield > div.password input {
+        border: none;
+        border-radius: 10px;
+        padding: 15px;
+        background: #514869;
+        color: #f0ffffde;
+        font-size: 12pt;
+        box-shadow: 0px 10px 40px #00000056;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .textfield > div.password i {
+        border: none;
+        padding: 15px;
+        color: #f0ffffde;
+        font-size: 12pt;
+    }
+
+
+    .textfield > label {
+        margin-left: -28px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: beige;
+    }
+    .textfield > label.senha {
+        margin-left: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: beige;
+    }
+
+    .links {
+        margin-top: 25px;
+    }
+
+    div.links a.login {
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #00ff88;
+        border-radius: 20px;
+        border: 16px solid #00ff88;
+        color: black;
+        height: 45px;
+        width: 100px;
+        margin-left: 25px;
+        margin-right: 4vh;
+        text-decoration: none;
+    }
+
+
+    div.links a.login:hover {
+        text-decoration: none;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #23c27883;
+        border: 16px solid #347c64;
+        color: #ffffffc5;
+        border-radius: 20px;
+        height: 45px;
+        width: 90px;
+        transition: 0.5s;
+    }
+
+    div.links a.cadastro {
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #00ff88;
+        border-radius: 20px;
+        border: 16px solid #00ff88;
+        color: black;
+        height: 45px;
+        width: 100px;
+        text-decoration: none;
+    }
+    div.links a.cadastro:hover{
+        text-decoration: none;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #23c27883;
+        border: 16px solid #347c64;
+        color: #ffffffc5;
+        border-radius: 20px;
+        height: 45px;
+        width: 90px;
+        transition: 0.5s;
+    }
+
+    
+    @media only screen and (max-width: 950px){
+    
+        .card-login {
+            width: 85%;
+        }
+    }
+    @media only screen and (max-width: 600px){
+    
+        .main-login {
+            flex-direction: column;
+        }
+
+        .left-login > h1 {
+            margin-left: 14%;
+            font-size: 15px;
+        }
+
+        .left-login-image {
+            margin-left: -23%;
+            margin-bottom: 50px;
+            width: 300px;
+        }
+
+        .card-login {
+            padding: 50px 100px;
+        }
+
+        .card-login > h1 {
+            
+            margin-bottom: 15px;
+        }
+
+        .textfield > input {
+            width: 60vw;
+        }
+    
+
+
+        div.links a.login {
+            display: flex;
+            text-align: center;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #00ff88;
+            border-radius: 10px;
+            color: black;
+            height: 10px;
+            width: 60px;
+            padding: 0px 76px;
+            text-decoration: none;
+            margin: 0px 0px 15px 0px;
+            padding-bottom: 10px;
+            
+        }
+
+        div.links a.cadastro {
+            display: flex;
+            text-align: center;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #00ff88;
+            border-radius: 10px;
+            color: black;
+            height: 10px;
+            width: 80px;
+            text-decoration: none;
+            padding: 0px 65px 10px 65px;
+            margin: 0px 0px 15px;
+
+        }
+
+        .textfield > div.password input {
+            border: none;
+            border-radius: 10px;
+            padding: 15px 15px ;
+            background: #514869;
+            color: #f0ffffde;
+            font-size: 12pt;
+            box-shadow: 0px 10px 40px #00000056;
+            margin-left: -27px;
+            margin-bottom: 10px;
+        }
+        .textfield > div.password i {
+            border: none;
+            padding: 15px;
+            color: #f0ffffde;
+            font-size: 12pt;
+        }
+
+        .textfield > label.senha {
+            margin-left: -34px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: beige;
+        }
+
+        
+    }
